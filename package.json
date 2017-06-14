@@ -1,0 +1,27 @@
+{
+  "name": "test-project-june-2017",
+  "version": "1.0.0",
+  "description": "Тестовое задание для кандидатов",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ria-com/test-project-june-2017.git"
+  },
+  "keywords": [
+    "mocha",
+    "elasticsearch"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ria-com/test-project-june-2017/issues"
+  },
+  "homepage": "https://github.com/ria-com/test-project-june-2017#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
