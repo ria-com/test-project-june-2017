@@ -166,7 +166,7 @@ describe('Запросы с группами', function () {
   });
 });
 describe('Запросы с группами и исключениями', function () {
-  it('brand.id[0].not=9&model.id[0].not=98&brand.id[1]=10&model.id[2]=113&group=brand.id,model.id', function () {
+  it('brand.id[0].not=9&model.id[0].not=98&brand.id[1]=10&model.id[1]=113&group=brand.id,model.id', function () {
     return expect(QStoES('brand.id[0].not=9&model.id[0].not=98&brand.id[1]=10&model.id[2]=113&group=brand.id,model.id'))
         .to.deep.equal({
           "query": {
