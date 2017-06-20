@@ -109,7 +109,7 @@ npm test
 }
 ```
 
-4. Запрос с несколькими группами параметров `brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[2]=113&group=brand.id,model.id`:
+4. Запрос с несколькими группами параметров `brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[1]=113&group=brand.id,model.id`:
 
 ```json
 {
