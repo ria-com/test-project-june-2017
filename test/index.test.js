@@ -137,8 +137,8 @@ describe('Запросы с группами', function () {
       }
     });
   });
-  it('brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[2]=113&group=brand.id,model.id', function () {
-    return expect(QStoES('brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[2]=113&group=brand.id,model.id'))
+  it('brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[1]=113&group=brand.id,model.id', function () {
+    return expect(QStoES('brand.id[0]=9&model.id[0]=98&brand.id[1]=10&model.id[1]=113&group=brand.id,model.id'))
         .to.deep.equal({
           "query": {
             "bool": {
